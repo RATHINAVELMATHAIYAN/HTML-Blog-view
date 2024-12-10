@@ -1,139 +1,132 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html >
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    
+    <title>Medium</title>
+    <link rel="icon" href="image/medium1.webp">
+    <style>
+        
+        .h1,
+        h2 {
+            column-gap: normal;
+            font-family: serif;
+        }
+
+        .div {
+            padding-left: 20%;
+            padding-right: 25%;
+            font-size: 21px;
+            font-family: serif;
+        }
+
+        .img {
+            height: 500px;
+            width: 500px;
+        }
+
+
+
+        .wrapper {
+            width: 100%;
+            max-width: 31.25rem;
+            margin: 6rem auto;
+        }
+
+        .label {
+            font-size: .625rem;
+            font-weight: 400;
+            text-transform: uppercase;
+            letter-spacing: +1.3px;
+            margin-bottom: 1rem;
+        }
+
+        .searchBar {
+            justify-content:end;
+            width: 50%;
+            display: flex;
+            flex-direction: row;
+           align-items:center;
+        }
+
+        #searchQueryInput {
+            width: 100%;
+            height: 2.8rem;
+            background: #f5f5f5;
+            outline: none;
+            border: none;
+            border-radius: 1.625rem;
+            padding: 0 3.5rem 0 1.5rem;
+            font-size: 1rem;
+        }
+
+        #searchQuerySubmit {
+            width: 3.5rem;
+            height: 2.8rem;
+            margin-left: -3.5rem;
+            background: none;
+            border: none;
+            outline: none;
+        }
+
+        #searchQuerySubmit:hover {
+            cursor: pointer;
+        }
+    
+    </style>
 </head>
-<style>
-    .para1 {
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        width: 500px;
-        text-align: justify;
-        padding-left: 400px;
-        font-size: larger;
-        /* word-spacing: 2px; */
-    }
-
-    .para2 {
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        width: 500px;
-        text-align: justify;
-        padding-left: 400px;
-        font-size: larger;
-        /* word-spacing: 2px; */
-    }
-
-    .para2 a {
-        /* text-decoration: none */
-        color: black;
-        font-weight: bolder;
-    }
-
-    .para3 {
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        width: 500px;
-        text-align: justify;
-        padding-left: 400px;
-        font-size: larger;
-        /* word-spacing: 2px; */
-    }
-
-    .para4 {
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        width: 500px;
-        text-align: justify;
-        padding-left: 400px;
-        font-size: larger;
-        /* word-spacing: 2px; */
-    }
-
-    .para5 {
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        width: 500px;
-        text-align: justify;
-        padding-left: 400px;
-        font-size: larger;
-        /* word-spacing: 2px; */
-    }
-
-    .para6 {
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        width: 500px;
-        text-align: justify;
-        padding-left: 400px;
-        font-size: larger;
-        /* word-spacing: 2px; */
-    }
-</style>
-
 <body>
-    <div class="heading">
-        <h1>Medium</h1>
+    <h1>Medium</h1><div class="wrapper"><div class="searchBar">
+    
+        <input id="searchQueryInput" type="text" name="searchQueryInput" placeholder="Search" value="">
 
-    </div>
-    <!-- <input type="search" name="search" placeholder="search"> -->
-    <div class="small-heading">
-        <h2
-            style="font-family: Arial, Helvetica, sans-serif; text-align: center; font-size:xx-large; padding-left: 50px;">
-            Blog on Child
-            Labour</h2>
-    </div>
-    <div class="para1">
-        <p>
-            Child labour remains a poignant issue that demands global attention. Despite concerted efforts towards
-            eradication, millions of children worldwide are still deprived of their fundamental rights and forced into
-            exploitative labour practices. This blog sheds light on the critical aspects of child labour, its
-            implications, and the ongoing efforts to combat this social menace.</p>
-    </div>
-    <h3 style="text-align: center; padding-right: 230px;">understanding Child Labour</h3>
-    <div class="para2">
-        <p>
-            <a href="https://theunitedindian.com/news/blog?child-labour-solutions-In-India=&b=199&c=2">Child Labour</a>
-            refers to the employment of children in any work that deprives them of their
-            childhood, potential, and dignity, interferes with their schooling, or is harmful to their physical and
-            mental development. It is a violation of basic human rights and has far-reaching consequences for the
-            children involved and society at large.
-        </p>
-        <img src="images/childlabour.jpg" alt="blog on child labour" height="600px" width="500px">
-        <figcaption style="text-align: center ; color: gray ; font-weight: bolder; font-family:Arial, Helvetica, sans-serif">Blog on Child Labour</figcaption>
-    </div>
-    <h3 style="text-align: center; padding-right: 230px;">Key Issues and Challenges</h3>
-    <div class="para3">
-        <p>
-            Child labour is often driven by poverty, lack of access to education, cultural norms, and inadequate
-            enforcement of laws. Children engaged in labour are susceptible to physical, emotional, and psychological
-            abuse. They are deprived of education, perpetuating a cycle of poverty and inequality.
-        </p>
-    </div>
-    <h3 style="text-align: center; padding-right: 230px;">Global Statistics and Impact</h3>
-    <div class="para4">
-        <p>
-            According to the International Labour Organization (ILO), over 152 million children are involved in child
-            labour worldwide, with almost half of them engaged in hazardous work. These children are denied the
-            opportunity to learn and develop essential skills, limiting their future prospects and perpetuating
-            socio-economic disparities.
-        </p>
-    </div>
-    <h3 style="text-align: center; padding-right:260px;">Types of Child Labour</h3>
-    <div class="para5">
-        <p>
-            Child labour manifests in various forms, including agriculture, domestic work, mining, manufacturing, and
-            services. Many children work long hours in hazardous conditions, exposed to dangerous substances and
-            machinery,
-            risking their health and well-being.
-        </p>
-    </div>
-    <h3 style="text-align: center; padding-right:350px;">Conculsion</h3>
-    <div class="para6">
-        In conclusion, eradicating child labour is a collective responsibility that requires concerted efforts from
-        governments, businesses, civil society, and individuals. Every child deserves a childhood free from
-        exploitation, with access to education and opportunities for a brighter future. By raising awareness, advocating
-        for policy changes, and supporting initiatives that protect children’s rights, we can create a world where child
-        labour is a thing of the past.
-    </div>
+<button id="searchQuerySubmit" type="submit" name="searchQuerySubmit">
+                <svg style="width:24px; height:24px" viewBox="0 0 24 24">
+                    <path fill="#666666" d="M9.5,3A6.5,6.5 0 0,1 16,9.5C16,11.11 15.41,12.59 14.44,13.73L14.71,14H15.5L20.5,19L19,20.5L14,15.5V14.71L13.73,14.44C12.59,15.41 11.11,16 9.5,16A6.5,6.5 0 0,1 3,9.5A6.5,6.5 0 0,1 9.5,3M9.5,5C7,5 5,7 5,9.5C5,12 7,14 9.5,14C12,14 14,12 14,9.5C14,7 12,5 9.5,5Z"></path>
+                </svg>
+ </button>
 
+     </div>
+     </div>    
+    
+    
+    <center><h1 class="h2"> Blog on Child Labour </h1> </center> <br><br>
+  <div class="div">  
+    <p>
+        Child labour remains a poignant issue that demands global attention. Despite concerted efforts towards eradication, millions of children worldwide are still deprived of their fundamental rights and forced into exploitative labour practices. This blog sheds light on the critical aspects of child labour, its implications, and the ongoing efforts to combat this social menace.
+    </p>
+    <h4>Understanding Child labour</h4>
+    <p>
+        <a href="https://theunitedindian.com/news/blog?child-labour-solutions-In-India=&b=199&c=2" target="_blank">child labour</a> refers to the employment of children in any work that deprives them of their childhood, potential, and dignity, interferes with their schooling, or is harmful to their physical and mental development. It is a violation of basic human rights and has far-reaching consequences for the children involved and society at large.
+         
+    </p>
+    
+     <img height="700" width="700" loading="eager" role="present action"  src="images/childlabour.jpg" alt="child labour" title="Blog on child labour" lang="en" >
+            <br>  <figcaption ><strong class="bf nx">Blog On Child Labour</strong></figcaption> 
+</p>
+<h3>Key Issues and Challenges</h3>
+<p>Child labour is often driven by poverty, lack of access to education, cultural norms, and inadequate enforcement of laws. Children engaged in labour are susceptible to physical, emotional, and psychological abuse. They are deprived of education, perpetuating a cycle of poverty and inequality.
+   <br> <h3>Global Stastics and Impact</h3><br>
+    According to the International Labour Organization (ILO), over 152 million children are involved in child labour worldwide, with almost half of them engaged in hazardous work. These children are denied the opportunity to learn and develop essential skills, limiting their future prospects and perpetuating socio-economic disparities. <br>
+<h3>Types of child labour </h3>    <br>
+Child labour manifests in various forms, including agriculture, domestic work, mining, manufacturing, and services. Many children work long hours in hazardous conditions, exposed to dangerous substances and machinery, risking their health and well-being <br>
+<h3>Legal Framework and International Efforts</h3><br>
+Numerous international conventions and laws prohibit child labour and promote education and social protection for children. The ILO’s Convention №182 on the Worst Forms of <a href="https://theunitedindian.com/news/blog?child-labour-solutions-In-India=&b=199&c=2" target="_blank">child labour</a> and Convention №138 on Minimum Age for Employment are key instruments in the fight against child labour. 
+<br>
+<h3>Initiatives and Interventions</h3> <br>
+Governments, non-governmental organizations (NGOs), and civil society groups worldwide collaborate to combat child labour through awareness campaigns, advocacy for policy reforms, provision of social services, and support for education and vocational training.
+<br>
+<h3>Role of Education in Prevention</h3> <br>
+Education plays a pivotal role in preventing child labour by equipping children with skills and knowledge for a better future. Access to quality education ensures that children are empowered to break the cycle of poverty and make informed choices. <br>
+<h3>Challenges Ahead</h3> <br>
+Despite progress, challenges persist in eliminating child labour, including inadequate enforcement of laws, poverty, lack of social protection, and gaps in education systems. Addressing these challenges requires sustained political will, investment in education and social services, and collaboration across sectors. <br>
+<h3>Conclusion</h3> <br>
+In conclusion, eradicating child labour is a collective responsibility that requires concerted efforts from governments, businesses, civil society, and individuals. Every child deserves a childhood free from exploitation, with access to education and opportunities for a brighter future. By raising awareness, advocating for policy changes, and supporting initiatives that protect children’s rights, we can create a world where child labour is a thing of the past.
+<br>
+<h3>Take Action</h3> <br>
+Join the global movement against child labour. Support organizations working to protect children's rights and promote education. Advocate for stronger laws and enforcement to ensure a future where every child can thrive.
+<br>
+This blog aims to raise awareness about the pressing issue of child labour and encourages readers to take action towards its eradication. Together, we can build a future where children are free to learn, play, and grow without the burden of exploitative labour.
+</p>
+</div>
 </body>
-
 </html>
